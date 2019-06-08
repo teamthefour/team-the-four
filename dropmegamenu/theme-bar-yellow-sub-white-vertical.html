@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Droop Mega Menu</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <!-- Demo CSS -->
+        <link rel="stylesheet" href="css/demo.css">
+        <!-- Font Icons CSS -->
+        <link rel="stylesheet" href="css/ionicons.css">
+        <!-- Droopmenu CSS -->
+        <link rel="stylesheet" href="css/droopmenu.css">
+        <link rel="stylesheet" href="css/addons/droopmenu-vertical.css">
+        <link rel="stylesheet" href="css/themes/yellow-white.css">
+    </head>
+    <body>
+    	<div data-dmnav="dmnav-site" class="dm-site-wrapper dm-site-sidebar-left">
+            <div class="dm-site-overlay"></div>
+        	<div class="dm-site-sidebar">
+                <div class="droopmenu-navbar">
+                    <div class="droopmenu-inner">
+                        <div class="droopmenu-header">
+                            <a href="#" class="droopmenu-brand"><img src="img/droop-white.svg"></a>
+                            <a href="#" class="droopmenu-toggle"></a>                
+                        </div><!-- droopmenu-header -->
+                        <div class="droopmenu-nav">
+                            <ul class="droopmenu">
+                            	<li>
+                                    <div class="dmv-search">
+                                        <form class="dmv-search-form" >
+                                            <label>
+                                                <input type="search" class="dmv-search-field" placeholder="Search …">
+                                            </label>
+                                            <button type="submit" class="dmv-searchmit">
+                                                <span class="ion-ios-search"></span>
+                                            </button>
+                                        </form>
+                                    </div><!-- dmv-search -->                                
+                                </li>
+                                <li><a href="#">Home</a></li>
+                                <li>
+                                	<a href="#">About</a>
+                                    <ul>
+                                        <li><a href="#">Our Story</a></li>
+                                        <li><a href="#">Leadership</a></li>
+                                        <li><a href="#">Our Partners</a></li>
+                                        <li><a href="#">Our Team</a></li>
+                                        <li><a href="#">Gallery</a></li>
+                                    </ul>                                      
+                                </li>
+                                <li>
+                                	<a href="#">Services</a>
+                                    <ul>
+                                        <li><a href="#">Web Design</a></li>
+                                        <li><a href="#">Graphic Design</a></li>
+                                        <li><a href="#">App Design</a></li>
+                                        <li><a href="#">Marketing</a></li>
+                                        <li><a href="#">Branding</a></li>
+                                        <li><a href="#">SEO</a></li>
+                                    </ul>                                    
+                                </li>
+                                <li><a href="#">Our Work</a></li>
+                                <li><a href="#">Contact</a></li>                  
+                            </ul>
+                        </div><!-- droopmenu-nav -->
+                    </div><!-- droopmenu-inner -->
+                    <div class="dm-site-footer">
+                        <div class="droopmenu-social-icons">
+                            <a href="#" class="dms-icon dm-facebook"> <i class="ion-social-facebook"></i> </a>
+                            <a href="#" class="dms-icon dm-twitter"> <i class="ion-social-twitter"></i> </a>
+                            <a href="#" class="dms-icon dm-googleplus"> <i class="ion-social-google"></i> </a>
+                            <a href="#" class="dms-icon dm-instagram"><i class="ion-social-instagram"></i></a>
+                            <a href="#" class="dms-icon dm-youtube"><i class="ion-social-youtube"></i></a>
+                        </div><!-- social-icons -->                     
+                    	<p>&copy; 2018 Droopmenu Inc. </p>
+                    </div>
+                </div><!-- droopmenu-navbar  -->
+            </div><!-- end dm-site-sidebar -->
+            
+            <div class="dm-site-header">
+                <div class="dm-site-header-inner dm-clearfix">
+                    <div class="dm-site-brand">
+                        <a href="#"> <img src="img/droop-white.svg"> </a>
+                    </div><!-- end // dm-site-brand -->
+                    <a href="#" data-dmnav="dmnav-toggle" class="dms-toggler">
+                        <span class="dms-open">
+                            <span><i></i></span>
+                            <span><i></i></span>
+                            <span><i></i></span>
+                        </span>
+                        <span class="dms-close">
+                            <span><i></i></span>
+                            <span><i></i></span>
+                        </span>                    
+                    </a><!-- / end dms-toggler -->
+                </div><!-- end // dm-site-header-inner -->
+            </div><!-- end // dm-site-header -->  
+                           
+            <div class="dm-site-content">
+                <div class="dm-site-hero">
+                	<div class="dm-center-content">
+                    	<div class="dm-center-content-inner">
+                        	<h1>We Are</h1>
+                        	<h2> A Creative &amp; Interactive Digital Agency </h2>
+                            <h5>We help brands create engaging &amp; profitable solutions </h5>
+                            <div class="dm-spacer">   
+                                <div class="dm-btn-group">
+                                    <a href="#" class="dm-btn dm-btn-white dm-btn-left">
+                                        <span class="dm-btn-label">Our Portfolio</span>
+                                    </a>
+                                    <a href="#" class="dm-btn dm-btn-white">
+                                        <span class="dm-btn-label">Case Studies</span>
+                                    </a>
+                                </div>
+                            </div><!-- dm-spacer -->  
+                        </div><!-- dm-center-content-inner -->
+                    </div><!-- dm-center-content -->
+                </div><!-- dm-site-hero -->
+                <div class="dm-main-content">
+                
+                	<!-- YOUR CONTENT GOES HERE -->
+                    
+                </div><!-- dm-main-content -->
+          </div><!-- end dm-site-content -->
+        </div><!-- end dm-site-wrapper -->
+        
+        <!-- Droopmenu js -->
+        <script type="text/javascript" src="js/jquery.min.js"></script>
+        <script type="text/javascript" src="js/droopmenu.js"></script>
+		<script type="text/javascript">
+		
+		/*	--------------------------------------------------
+			:: Initialize menu
+			-------------------------------------------------- */
+			jQuery(function($){
+				$('.droopmenu-navbar').droopmenu({
+					dmOrientation:'dmvertical',
+					dmPosition:'dmleft'
+				});
+			});
+			
+		/*	--------------------------------------------------
+			:: Menu Toggle 
+			-------------------------------------------------- */
+			jQuery(function($){
+				$('[data-dmnav="dmnav-toggle"]').on('click', function(evt) {
+					$('[data-dmnav="dmnav-site"]').toggleClass('dm-is-open');
+					evt.preventDefault();
+				});
+				
+				$('[data-dmnav="dmnav-site"]').on('click', function(evt){
+					if( $(evt.target).is('.dm-site-overlay') || $(evt.target).is('[data-dmnav="dmnav-toggle"]')) {
+						evt.preventDefault();	
+						$('[data-dmnav="dmnav-site"]').removeClass('dm-is-open');
+					}
+				});
+			});				
+			
+        </script>
+    </body>
+</html>

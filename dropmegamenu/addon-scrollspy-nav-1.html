@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Droop Mega Menu</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <!-- Demo CSS -->
+        <link rel="stylesheet" href="css/demo.css">
+        <!-- Font Icons CSS -->
+        <link rel="stylesheet" href="css/ionicons.css">
+        <!-- Droopmenu CSS -->
+        <link rel="stylesheet" href="css/droopmenu.css">
+        <link rel="stylesheet" href="css/addons/droopmenu-scrollspy.css">
+    </head>
+    <body>
+    
+        <div class="droopmenu-navbar droopmenu-dots">
+            <div class="droopmenu-inner">
+                <div class="droopmenu-header">
+                    <a href="#" class="droopmenu-brand"><img src="img/droop-dark.svg"></a>
+                    <a href="#" class="droopmenu-toggle"></a>                
+                </div><!-- droopmenu-header -->
+                <div class="droopmenu-nav" role="navigation">
+                    <ul class="droopmenu">
+                        <li><a href="#1"><b>Section 1</b></a></li>
+                        <li><a href="#2"><b>Section 2</b></a></li>
+                        <li><a href="#3"><b>Section 3</b></a></li>
+                        <li><a href="#4"><b>Section 4</b></a></li>
+                        <li><a href="#5"><b>Section 5</b></a></li>
+                    </ul>
+                </div><!-- droopmenu-nav -->
+            </div><!-- droopmenu-inner -->
+        </div><!-- droopmenu-navbar  -->
+        
+        <div class="sections">
+            <section id="1" class="sectionbg-1">
+                <div class="section-container">
+                    <div class="section-container-inner">
+                        <h1>Section one</h1>
+                        <p> A landing page template for one page navigation </p>
+                    </div>
+                </div><!-- section-container -->
+            </section>
+            <section id="2" class="sectionbg-2">
+                <div class="section-container">
+                    <div class="section-container-inner">
+                        <h1>Section two</h1>
+                        <p>This is a great place to talk about your website!</p>
+                    </div>
+                </div><!-- section-container -->
+            </section>
+            <section id="3" class="sectionbg-3">
+                <div class="section-container">
+                    <div class="section-container-inner">
+                        <h1>Section three</h1>
+                        <p>Doloribus consequuntur ex assumenda laborum vel</p>
+                    </div>
+                </div><!-- section-container -->            
+            </section>
+            <section id="4" class="sectionbg-4">
+                <div class="section-container">
+                    <div class="section-container-inner">
+                        <h1>Section four</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing</p>
+                    </div>
+                </div><!-- section-container -->              
+            </section>
+            <section id="5" class="sectionbg-5">
+                <div class="section-container">
+                    <div class="section-container-inner">
+                        <h1>Section five</h1>
+                        <p>Copyright &copy; 2018 droopmenu all rights</p>
+                    </div>
+                </div><!-- section-container -->
+            </section>
+        </div><!-- sections -->
+        
+        <!-- Droopmenu js -->
+        <script type="text/javascript" src="js/jquery.min.js"></script>
+        <script type="text/javascript" src="js/droopmenu.js"></script>
+		<script type="text/javascript">
+		
+			/*	--------------------------------------------------
+				:: Initialize menu
+				-------------------------------------------------- */
+						
+				jQuery(function($){
+					$('.droopmenu-navbar').droopmenu({ 
+						dmPosition:'dmtop',
+						dmOffCanvas:true,
+						dmFixed	:true	
+					});
+				});
+				
+			/*	--------------------------------------------------
+				:: Menu ScrollSpy 
+				-------------------------------------------------- */
+							
+				jQuery(function($){			
+					var dmWindowHeight = $(window).height(),
+						dmPageheight = new Array();
+						
+						$(".sections section").each(function(){
+							var dmElement = $(this);
+							var dmPosition = dmElement.position();
+							dmPageheight.push({
+								top : Math.round(dmPosition.top),
+								element : dmElement
+							});
+						});
+					
+						dmPageheight.sort(function(dmA, dmB) {
+							if (dmA.top > dmB.top){
+								return -1;
+							}
+							if (dmA.top < dmB.top){
+								return 1;
+							}
+							return 0;
+						});
+					
+						var dmOrderStatus = {
+							dmHasScrolled : true,
+							dmIsLocked : false
+						};
+					
+						var dmScrolld = function(){
+							if(dmOrderStatus.dmHasScrolled){
+								var dmMenuWrap = $(".droopmenu-navbar"),        
+								dmActTop = $( window ).scrollTop(), 
+								dmLevel = dmActTop + dmMenuWrap.height();
+								dmOrderStatus.dmIsLocked = true;
+								dmOrderStatus.dmHasScrolled = false; 
+								for(var i in dmPageheight){
+									var dmPageHeightArray = dmPageheight[i];
+									if(dmLevel > dmPageHeightArray.top && dmLevel < (dmPageHeightArray.top + dmPageHeightArray.element.height())){
+										$(".droopmenu-navbar .droopmenu-nav ul li").removeClass("activeSection");
+										$(".droopmenu-navbar .droopmenu-nav").find("a[href='#"+ dmPageHeightArray.element.attr("id") +"']").parent().addClass("activeSection");
+										break;
+									}
+								}
+								dmOrderStatus.dmIsLocked = false;
+							}
+						}
+						
+						setInterval(dmScrolld, 250);
+						$( window ).scroll(function() {
+							dmOrderStatus.dmHasScrolled = true && !dmOrderStatus.dmIsLocked;
+						});
+						
+						$(".droopmenu-navbar .droopmenu-nav a[href*=#]:not([href=#])").on('click', function () {
+							if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+								var target = $(this.hash);
+								target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+								if (target.length) {
+									$('html,body').animate({
+										scrollTop: target.offset().top-0
+									}, 700);
+									return false;
+								}
+							}
+						});		
+				});
+        </script>        
+    </body>
+</html>

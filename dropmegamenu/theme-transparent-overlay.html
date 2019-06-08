@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Droop Mega Menu</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <!-- Demo CSS -->
+        <link rel="stylesheet" href="css/demo.css">
+        <!-- Font Icons CSS -->
+        <link rel="stylesheet" href="css/ionicons.css">
+        <!-- Droopmenu CSS -->
+        <link rel="stylesheet" href="css/droopmenu.css">
+        <link rel="stylesheet" href="css/themes/transparent-overlay.css">
+    </head>
+    
+    <body>
+        <div class="droopmenu-navbar">
+            <div class="droopmenu-inner">
+                <div class="droopmenu-header">
+                    <a href="#" class="droopmenu-brand">
+                        <img class="dmlogo-light" src="img/droop-white.svg">
+                    </a> 
+                    <a href="#" class="droopmenu-toggle"></a>                
+                </div><!-- droopmenu-header -->
+                <div class="droopmenu-nav">
+                    <ul class="droopmenu droopmenu-right">
+                        <li><a href="#">Home</a></li>
+                        <li>
+                            <a href="#">Features</a>
+                            <ul class="droopmenu-grid droopmenu-grid-2">
+                                <li class="droopmenu-grid-container">
+                                    <div class="droopmenu-row">
+                                        <ul class="droopmenu-col droopmenu-col12">
+                                            <li><a href="#"> <i class="ion-android-drafts"></i> Inbox Messages</a></li>
+                                            <li><a href="#"> <i class="ion-calendar"></i> Scheduled Events </a></li>
+                                            <li><a href="#"> <i class="ion-card"></i> Online Payments </a></li>
+                                            <li><a href="#"> <i class="ion-chatbox-working"></i> Notifications</a></li>
+                                            <li><a href="#"> <i class="ion-connection-bars"></i> Analytics </a></li>
+                                            <li><a href="#"> <i class="ion-lock-combination"></i> Security </a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                            </ul>             
+                        </li>
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#">Support</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li>
+                            <a  class="droopmenu-button" href="#">
+                                <span> Sign up </span> 
+                            </a>
+                        </li>                                             
+                    </ul>
+                </div><!-- droopmenu-nav -->
+            </div><!-- droopmenu-inner -->
+        </div><!-- droopmenu-navbar  -->
+        
+        <!--hero-section-->
+        <div class="hero-section sectionbgd">
+        	<div class="hero-section-content">
+            	<div class="hero-content-inner hero-white-text">
+                	<div class="droopmenu-grid">
+                    
+                    </div><!--droopmenu-grid-->
+                </div><!--hero-content-inner-->
+            </div><!--hero-content-->
+        </div>
+		
+        
+        <!-- demo fake height -->
+        <div class="dm-content-dummy"></div>
+                
+        <!-- Droopmenu js -->
+        <script type="text/javascript" src="js/jquery.min.js"></script>
+        <script type="text/javascript" src="js/droopmenu.js"></script>
+		<script type="text/javascript">
+		
+		/*	--------------------------------------------------
+			:: Initialize menu
+			-------------------------------------------------- */		
+			jQuery(function($){
+				$('.droopmenu-navbar').droopmenu({
+					dmFixed:true,
+					dmArrow:true,
+					dmArrowDirection:'dmarrowup'					
+				});
+			});	
+						
+		/*	--------------------------------------------------
+			:: Initialize menu
+			-------------------------------------------------- */
+			jQuery(function($){			
+				$(window).scroll(function(){
+					if($(this).scrollTop() > 80){
+						$(".droopmenu-navbar").addClass("droopmenu-showbg");
+					} else {
+						$(".droopmenu-navbar").removeClass("droopmenu-showbg");
+					}						  
+				});					
+			});		
+        </script>          
+    </body>
+</html>

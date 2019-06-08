@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Droop Mega Menu</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <!-- Demo CSS -->
+        <link rel="stylesheet" href="css/demo.css">
+        <!-- Font Icons CSS -->
+        <link rel="stylesheet" href="css/ionicons.css">
+        <!-- Droopmenu CSS -->
+        <link rel="stylesheet" href="css/droopmenu.css">
+        <!-- Superslides CSS -->
+        <link rel="stylesheet" href="css/addons/superslides.css">         
+    </head>
+    <body>
+        <div class="dm-main-slider">
+            <div class="dm-site-loading">
+                <preloader>
+                    <bar></bar>
+                    <bar></bar>
+                    <bar></bar>
+                </preloader>
+            </div><!-- dm-site-loading -->
+            <div id="slides">
+                <ul class="slides-container">
+                    <li>
+                        <img src="img/bg.jpg" alt="">
+                        <div class="slides-overlay bgm-overlay"></div>
+                        <div class="caption-container">
+                            <div class="caption-container-inner">
+                                <div class="caption-center">
+                                    <h1>Powerful menu</h1>
+                                    <p> A menu that exceeds expectations </p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="img/bg2.jpg" alt="">
+                        <div class="slides-overlay bgm-overlay"></div>
+                        <div class="caption-container">
+                            <div class="caption-container-inner">
+                                <div class="caption-center">
+                                    <h1>It's responsive</h1>
+                                    <p>Adapts to all devices &amp; resolutions </p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="img/bg3.jpg" alt="">
+                        <div class="slides-overlay bgm-overlay"></div>
+                        <div class="caption-container">
+                            <div class="caption-container-inner">
+                                <div class="caption-center">
+                                    <h1>Simple &amp; easy </h1>
+                                    <p>Very simple to setup in just minutes</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <nav class="slides-navigation">
+                    <a href="#" class="next">
+                        <i class="ion-ios-arrow-right"></i>
+                    </a>
+                    <a href="#" class="prev">
+                        <i class="ion-ios-arrow-left"></i>
+                    </a>
+                </nav>
+            </div>
+        </div><!-- dm-main-slider -->
+        
+        <div class="droopmenu-navbar">
+            <div class="droopmenu-inner dm-fullspan">
+                <div class="droopmenu-header">
+                    <a href="#" class="droopmenu-brand"><img src="img/droop-dark.svg"></a>
+                    <a href="#" class="droopmenu-toggle"></a>                
+                </div><!-- droopmenu-header -->
+                <div class="droopmenu-nav" role="navigation">
+                    <ul class="droopmenu droopmenu-right">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Portfolio</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div><!-- droopmenu-nav -->
+            </div><!-- droopmenu-inner -->
+        </div><!-- droopmenu-navbar  -->
+        
+        <!-- demo fake height -->
+        <div class="dm-content-dummy"></div>
+        
+        <!-- Droopmenu js -->
+        <script type="text/javascript" src="js/jquery.min.js"></script>
+        <script type="text/javascript" src="js/droopmenu.js"></script>
+                
+        <!-- Sticky Polyfill for IE9+ -->
+        <script type="text/javascript" src="js/stickyfill.min.js"></script>
+        
+        <!-- Superslides Slider -->
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/superslides/0.6.2/jquery.superslides.min.js"></script>
+        
+		<script type="text/javascript">
+		
+		/*	--------------------------------------------------
+			:: Initialize menu
+			-------------------------------------------------- */		
+			jQuery(function($){
+				$('.droopmenu-navbar').droopmenu({
+					dmSticky:true	
+				});			
+			});
+			
+		/*	--------------------------------------------------
+			:: Initialize Sticky Polyfill 
+			-------------------------------------------------- */				
+			jQuery(function($){
+				var elements = $('.dmsticky');
+				Stickyfill.add(elements);		
+			});	
+			
+		/*	--------------------------------------------------
+			:: Initialize Superslides Slider 
+			-------------------------------------------------- */				
+			jQuery(function($){
+				$(document).on('init.slides', function() {
+					setTimeout(function () {
+						$('.dm-site-loading').fadeOut(function() {
+							$(this).remove();
+						});
+					},2000);
+				});			
+				
+				$('#slides').superslides({
+					animation: 'fade',
+					pagination: true,
+					play: 5000	
+				});		
+			});
+        </script>          
+    </body>
+</html>

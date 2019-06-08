@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Droop Mega Menu</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <!-- Demo CSS -->
+        <link rel="stylesheet" href="css/demo.css">
+        <!-- Font Icons CSS -->
+        <link rel="stylesheet" href="css/ionicons.css">
+        <!-- Droopmenu CSS -->
+        <link rel="stylesheet" href="css/droopmenu.css">
+    </head>
+    <body>
+    
+        <div class="dm-main-demo">
+        	<div class="dm-main-hero">
+                <div class="dmv-center">
+                    <h1>droopmenu</h1>
+                    <h2>Explore the possibilities</h2>
+                </div>
+            </div>
+        </div>
+        
+        <div class="droopmenu-navbar">
+            <div class="droopmenu-inner dm-fullspan">
+                <div class="droopmenu-header">
+                    <a href="#" class="droopmenu-brand"><img src="img/droop-dark.svg"></a>
+                    <a href="#" class="droopmenu-toggle"></a>                
+                </div><!-- droopmenu-header -->
+                <div class="droopmenu-nav" role="navigation">
+                    <ul class="droopmenu droopmenu-right">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Portfolio</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div><!-- droopmenu-nav -->
+            </div><!-- droopmenu-inner -->
+        </div><!-- droopmenu-navbar  -->
+        
+        <!-- demo fake height -->
+        <div class="dm-content-dummy"></div>
+        
+        <!-- Droopmenu js -->
+        <script type="text/javascript" src="js/jquery.min.js"></script>
+        <script type="text/javascript" src="js/droopmenu.js"></script>
+        
+        <!-- Sticky Polyfill for IE9+ -->
+        <script type="text/javascript" src="js/stickyfill.min.js"></script>
+        
+		<script type="text/javascript">
+		
+		/*	--------------------------------------------------
+			:: Initialize menu
+			-------------------------------------------------- */		
+			jQuery(function($){
+				$('.droopmenu-navbar').droopmenu({
+					dmSticky:true	
+				});
+			});
+			
+		/*	--------------------------------------------------
+			:: Initialize Sticky Polyfill 
+			-------------------------------------------------- */		
+			jQuery(function($){
+				var elements = $('.dmsticky');
+				Stickyfill.add(elements);
+			});			
+						
+        </script>        
+    </body>
+</html>
