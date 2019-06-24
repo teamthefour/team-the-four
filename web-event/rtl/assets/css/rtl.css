@@ -1,0 +1,565 @@
+body {
+    direction: rtl;
+}
+.section-title {
+    text-align: right;
+}
+.section-title .btn {
+    right: auto;
+    left: 0;
+}
+.section-title .bar::after, .section-title .bar::before {
+    right: auto;
+    left: 0;
+}
+.section-title .bar::before {
+    right: auto;
+    left: -63px;
+}
+.section-title .bar::after {
+    right: auto;
+    left: -29px;
+}
+.navbar-brand {
+    margin-right: 0;
+    margin-left: 1rem;
+}
+.elkevent-nav nav ul.ml-auto {
+    margin-left: 0 !important;
+    margin-right: auto;
+}
+.elkevent-nav nav .others-option {
+    margin-left: 0;
+    margin-right: 13px;
+}
+.elkevent-nav nav .navbar-nav .nav-item .dropdown-menu {
+    left: auto;
+    right: 0;
+    text-align: right;
+}
+.elkevent-nav nav .navbar-nav .nav-item .dropdown-menu li .dropdown-menu {
+    left: auto;
+    right: 220px;
+}
+.main-banner-content {
+    text-align: right;
+}
+.main-banner-content::before {
+    left: auto;
+    right: 18%;
+}
+.banner-form form {
+    text-align: right;
+}
+.main-banner-content ul li {
+    margin-right: 0;
+    margin-left: 12px;
+}
+.main-banner-content ul li:last-child {
+    margin-left: 0;
+}
+.main-banner-content .button-box .video-btn {
+    margin-left: 0;
+    margin-right: 20px;
+}
+.main-banner-content .button-box .video-btn i {
+    margin-right: 0;
+    margin-left: 8px;
+}
+.banner-image {
+    right: auto;
+    left: 0;
+    text-align: left;
+}
+.event-countdown {
+    right: auto;
+    left: 10%;
+}
+.event-countdown #timer div#hours span {
+    left: -44px;
+    right: auto;
+}
+.event-countdown #timer div#minutes span {
+    left: -49px;
+    right: auto;
+}
+.event-countdown #timer div#seconds span {
+    left: -52px;
+    right: auto;
+}
+.event-countdown #timer span {
+    right: auto;
+    left: -37px;
+}
+.about-image .about-img1 {
+    right: auto;
+    left: -100px;
+}
+.about-image .about-img2 {
+    right: 20px;
+    left: auto;
+}
+.about-image .btn {
+    right: auto;
+    left: 0;
+}
+.about-content {
+    text-align: right;
+}
+.about-content .btn-primary {
+    margin-right: 0;
+    margin-left: 8px;
+}
+.col-lg-3:first-child .single-box {
+    border-left: 1px solid rgba(255, 255, 255, 0.2);
+}
+.col-lg-3:last-child .single-box {
+    border-left: none;
+}
+.single-speakers .speakers-content {
+    left: auto;
+    text-align: right;
+    right: 35px;
+}
+.single-speakers ul {
+    right: auto;
+    left: -15px;
+}
+.single-speakers:hover ul {
+    right: auto;
+    left: 0;
+}
+.tab_content .tabs_item .accordion .accordion-item .accordion-title .author {
+    right: auto;
+    left: 0;
+}
+.tab_content .tabs_item .accordion .accordion-item .accordion-title .schedule-info {
+    text-align: right;
+}
+.tab_content .tabs_item .accordion .accordion-item .accordion-title .schedule-info ul li {
+    margin-left: 12px;
+    margin-right: 0;
+}
+.tab_content .tabs_item .accordion .accordion-item .accordion-title .schedule-info ul li:last-child {
+    margin-left: 0;
+}
+.tab_content .tabs_item .accordion .accordion-item .accordion-content {
+    text-align: right;
+}
+.tab_content .tabs_item .accordion .accordion-item .accordion-content .text-right {
+    text-align: left !important;
+}
+.single-blog-post .blog-image .post-tag {
+    right: auto;
+    left: 0;
+}
+.single-blog-post .blog-post-content {
+    text-align: right;
+}
+.subscribe-area .subscribe-inner .newsletter-form .btn {
+    right: auto;
+    left: 0;
+}
+.single-footer-widget {
+    text-align: right;
+}
+.copyright-area ul li:first-child::before {
+    display: block;
+}
+.copyright-area ul li:first-child {
+    margin-left: 10px;
+    margin-right: 0;
+}
+.copyright-area ul li:last-child::before {
+    display: none;
+}
+.copyright-area ul li:last-child {
+    margin-right: 10px;
+    margin-left: 0;
+}
+.back-to-top {
+    left: 1.5%;
+    right: auto;
+}
+.countdown-area .event-countdown {
+    right: 0 !important;
+}
+.about-area-two .about-image .about-img1 {
+    right: 0 !important;
+    left: 0 !important;
+}
+.elkevent-single-speakers .speakers-content {
+    text-align: right;
+}
+.elkevent-single-speakers ul {
+    right: auto;
+    left: -15px;
+}
+.elkevent-single-speakers:hover ul, .elkevent-single-speakers:focus ul {
+    right: auto;
+    left: 0;
+}
+.schedule-slides-item .single-schedule {
+    padding: 0 200px 0 0;
+}
+.schedule-slides-item .single-schedule .schedule-date {
+    left: auto;
+    right: 0;
+}
+.schedule-slides-item .single-schedule .schedule-content {
+    text-align: right;
+}
+.schedule-slides-item .single-schedule .schedule-content .author {
+    margin-right: 0;
+    margin-left: 25px;
+}
+.schedule-slides-item .single-schedule .schedule-content .schedule-info ul li {
+    margin-right: 0;
+    margin-left: 12px;
+}
+.schedule-slides-item .single-schedule .schedule-content .schedule-info ul li:last-child {
+    margin-left: 0;
+}
+.funFact {
+    text-align: right;
+    padding-left: 0;
+    padding-right: 60px;
+}
+.funFact .icon {
+    left: auto;
+    right: 0;
+}
+.single-blog-card .post-tag {
+    right: auto;
+    left: 0;
+}
+.single-blog-card .blog-post-content {
+    text-align: right;
+    width: 100%;
+}
+.slideshow-banner .event-countdown #days {
+    margin-left: 35px;
+    margin-right: 0;
+}
+.slideshow-banner .event-countdown {
+    left: 0 !important;
+    right: 0 !important;
+    text-align: right;
+}
+.about-area-three .about-image .about-img1 {
+    right: 0 !important;
+    left: 0 !important;
+}
+.about-area-three .about-content ul li {
+    padding-right: 20px;
+    padding-left: 0;
+}
+.about-area-three .about-content ul li i {
+    left: auto;
+    right: 0;
+}
+.cta-area {
+    text-align: right;
+}
+.cta-area .text-right {
+    text-align: left !important;
+}
+.single-schedule-item .schedule-item-wrapper .schedule-content {
+    text-align: right;
+}
+.single-schedule-item .schedule-item-wrapper .schedule-content .author {
+    margin-right: 0;
+    margin-left: 20px;
+}
+.single-schedule-item .schedule-item-wrapper .schedule-content .schedule-info ul li {
+    margin-right: 0;
+    margin-left: 12px;
+}
+.single-schedule-item .schedule-item-wrapper .schedule-content .schedule-info ul li:last-child {
+    margin-left: 0;
+}
+.schedule-style-four .tabs li::before {
+    left: auto;
+    right: -15px;
+}
+.preloader .loader {
+    left: auto;
+    right: 50%;
+}
+.page-title-area ul {
+    right: auto;
+    left: 20px;
+}
+.single-box .content::before {
+    left: auto;
+    right: 50%;
+    margin-left: 0;
+    margin-right: -155px;
+}
+.page-title-area ul li:first-child {
+    margin-left: 8px;
+    margin-right: 0;
+}
+.page-title-area ul li:first-child::before {
+    display: block;
+}
+.page-title-area ul li:last-child {
+    margin-right: 8px;
+    margin-left: 0;
+}
+.page-title-area ul li:last-child::before {
+    display: none;
+}
+.login-area .login-form form {
+    text-align: right;
+}
+.signup-area .signup-form form {
+    text-align: right;
+}
+.coming-soon .coming-soon-content form button {
+    left: -1px;
+    right: auto;
+    border-radius: 50px 0 0 50px;
+}
+.faq-accordion .accordion {
+    text-align: right;
+}
+.faq-accordion .accordion .accordion-title {
+    padding-left: 20px;
+    padding-right: 55px;
+}
+.faq-accordion .accordion .accordion-title span {
+    left: auto;
+    right: 0;
+}
+.sidebar .widget.widget_search form button {
+    right: auto;
+    left: 5px;
+}
+.sidebar .widget {
+    text-align: right;
+}
+.sidebar .widget .widget-title::before {
+    right: auto;
+    left: 0;
+}
+.sidebar .widget.widget_categories ul li {
+    padding-left: 0;
+    padding-right: 18px;
+}
+.sidebar .widget.widget_categories ul li::before {
+    left: auto;
+    right: 0;
+}
+.sidebar .widget.widget_archive ul li {
+    padding-left: 0;
+    padding-right: 18px;
+}
+.sidebar .widget.widget_archive ul li::before {
+    left: auto;
+    right: 0;
+}
+.sidebar .widget.widget_recent_entries ul li a img {
+    left: auto;
+    right: 0;
+}
+.sidebar .widget.widget_recent_entries ul li {
+    padding-left: 0;
+    padding-right: 100px;
+}
+.blog-details {
+    text-align: right;
+}
+.blog-details .blog-meta ul li:first-child {
+    margin-left: 9px;
+    margin-right: 0;
+}
+.blog-details .blog-meta ul li:first-child::before {
+    display: block;
+}
+.blog-details .blog-meta ul li i {
+    margin-right: 0;
+    margin-left: 4px;
+}
+.blog-details .blog-meta ul li:last-child {
+    margin-left: 0;
+    margin-right: 9px;
+}
+.blog-details .blog-meta ul li:last-child::before {
+    display: none;
+}
+.blog-details blockquote, .blog-details .blockquote {
+    padding-left: 20px;
+    padding-right: 100px;
+}
+.blog-details blockquote::before, .blog-details .blockquote::before {
+    left: auto;
+    right: 25px;
+}
+.post-tag-media ul.tag {
+    text-align: right;
+}
+.post-tag-media ul.social-share {
+    text-align: left;
+}
+.comments-area {
+    text-align: right;
+}
+.comments-area ol li .comment-body .comment-meta, .comments-area ul li .comment-body .comment-meta {
+    padding-left: 0;
+    padding-right: 85px;
+}
+.comments-area ol li .comment-body .reply, .comments-area ul li .comment-body .reply {
+    right: auto;
+    left: 30px;
+}
+.comments-area ol li .comment-body .comment-meta .comment-author img, .comments-area ul li .comment-body .comment-meta .comment-author img {
+    left: auto;
+    right: 0;
+}
+.comments-area ol li ol li, .comments-area ol li ul li, .comments-area ul li ol li, .comments-area ul li ul li {
+    margin-left: 0;
+    margin-right: 35px;
+}
+.contact-box {
+    padding-left: 20px;
+    padding-right: 90px;
+    text-align: right;
+}
+.contact-box .icon {
+    left: auto;
+    right: 20px;
+}
+#contactForm {
+    text-align: right;
+}
+.leave-your-message {
+    text-align: right;
+}
+.leave-your-message .stay-connected ul li a i {
+    margin-right: 0;
+    margin-left: 10px;
+}
+@media only screen and (max-width: 767px) {
+    .event-countdown {
+        right: auto !important;
+        left: 0 !important;
+        text-align: left !important;
+    }
+    .main-banner-content .button-box .video-btn {
+        margin-right: 0;
+    }
+    .about-image .about-img1 {
+        left: 0;
+    }
+    .about-image .about-img2 {
+        right: 0 !important;
+    }
+    .about-image .btn {
+        left: auto;
+    }
+    .pricing-area {
+        overflow: hidden;
+    }
+    .speakers-area {
+        overflow: hidden;
+    }
+    .preloader .loader {
+        margin: -80px -55px 0 0 !important;
+    }
+    .funFact {
+        padding-right: 0;
+    }
+    .slideshow-banner .event-countdown {
+        text-align: right !important;
+    }
+    .event-countdown #timer div#days {
+        margin-right: 0 !important;
+    }
+    .speakers-area-two {
+        overflow: hidden;
+    }
+    .post-tag-media ul.tag {
+        text-align: center;
+    }
+    .comments-area ol li ol li, .comments-area ol li ul li, .comments-area ul li ol li, .comments-area ul li ul li {
+        margin-right: 10px !important;
+    }
+    .contact-box {
+        padding-left: 0 !important;
+        padding-right: 80px !important;
+    }
+    .faq-accordion .accordion .accordion-title {
+        padding: 10px 50px 10px 10px !important;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .elkevent-mobile-nav.mean-container .logo {
+        left: auto !important;
+        right: 40px !important;
+    }
+    .elkevent-mobile-nav.mean-container .mean-bar a.meanmenu-reveal {
+        padding: 12px 0 0 40px !important;
+    }
+    .event-countdown #timer div span {
+        right: 0 !important;
+        left: 0 !important;
+        transform: unset;
+        bottom: 0;
+        top: 0;
+        position: relative;
+        text-align: center;
+    }
+    .about-image .btn {
+        right: auto !important;
+        left: 25px;
+    }
+    .schedule-slides-item .single-schedule {
+        padding: 0 175px 0 0 !important;
+    }
+    .funFact {
+        padding-right: 0;
+    }
+    .slideshow-banner .event-countdown {
+        margin-bottom: 20px !important;
+    }
+    .cta-area .col-lg-4.text-right {
+        text-align: right !important;
+    }
+    .contact-box {
+        padding: 30px 75px 30px 20px !important;
+    }
+}
+
+@media only screen and (min-width: 1650px) {
+    .event-countdown {
+        right: auto !important;
+        left: 20% !important;
+    }
+    .about-image .about-img1 {
+        right: auto !important;
+        left: -200px !important;
+    }
+}
+@media only screen and (max-width: 991px) {
+    .elkevent-mobile-nav .logo {
+        left: auto !important;
+        right: 15px;
+    }
+    .elkevent-mobile-nav.mean-container a.meanmenu-reveal {
+        right: auto !important;
+        left: 0 !important;
+        padding: 12px 0 0 15px !important;
+    }
+    .elkevent-mobile-nav.mean-container .mean-nav ul li a {
+        float: right !important;
+        text-align: right !important;
+    }
+    .elkevent-mobile-nav.mean-container .mean-nav ul li a.mean-expand {
+        padding: 14px 10px 0 !important;
+        right: auto !important;
+        left: 0 !important;
+        text-align: left !important;
+    }
+}
