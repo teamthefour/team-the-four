@@ -1,0 +1,197 @@
+$color-purple: #B3428F;
+$color-purple-light: #C756A3;
+$gray-color: #edf5ff;
+
+a {
+    color: $color-purple;
+}
+.bg-gray {
+	background-color: $gray-color;
+}
+.section-title span {
+	color: $color-purple;
+}
+.section-title h3::before {
+	background: $color-purple;
+}
+.owl-theme .owl-nav [class*="owl-"] {
+	color: $color-purple;
+}
+.owl-theme .owl-nav [class*="owl-"]:hover {
+	background: $color-purple;
+}
+.btn-primary {
+	background-color: $color-purple;
+	border-color: $color-purple;
+}
+.btn-primary.disabled, .btn-primary:disabled {
+	background-color: $color-purple;
+	border-color: $color-purple;
+}
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show > .btn-primary.dropdown-toggle {
+	background-color: $color-purple-light;
+	border-color: $color-purple-light;
+}
+.btn-primary:hover {
+	background-color: $color-purple-light;
+	border-color: $color-purple-light;
+}
+.double-bounce1, .double-bounce2 {
+	background-color: $color-purple;
+}
+.navbar-brand span {
+	color: $color-purple;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+	color: $color-purple;
+}
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+	color: $color-purple;
+}
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+	color: $color-purple;
+}
+.creative-bg {
+	background: $color-purple;
+}
+.creative-bg-two {
+	background: $color-purple;
+}
+.main-banner-form form .form-control:focus {
+	border-color: $color-purple;
+}
+.single-features:hover {
+    background: $color-purple;
+}
+.single-features i {
+	color: $color-purple;
+}
+.about-content ul li i {
+    color: $color-purple;
+}
+.about-text ul li i {
+    color: $color-purple;
+}
+.about-text span {
+	background: hsla(319, 46%, 48%, 0.6);
+}
+.about-text .blockquote {
+	background: hsla(319, 46%, 48%, 0.3);
+}
+.single-services:hover {
+	background: $color-purple;
+}
+.single-services i {
+	background: $color-purple;
+}
+.single-services:hover i {
+	color: $color-purple;
+}
+.tabs a:hover i, .tabs .current a i {
+    background: $color-purple;
+}
+.tabs_item_content ul li i {
+	color: $color-purple;
+}
+.tabs a:hover, .tabs .current a {
+    color: $color-purple;
+}
+.funfacts-area::before {
+	background: $color-purple;
+}
+.funFact i {
+	color: $color-purple;
+}
+.fun-fact i {
+	color: $color-purple;
+}
+.single-box:hover span {
+    background: $color-purple;
+}
+.our-team .social li a {
+    color: $color-purple;
+}
+.our-team .social li a:hover {
+    background: $color-purple;
+}
+.single-team .pic::after {
+	border: 2px solid $color-purple;
+}
+.single-team .social-links li a:hover {
+	background: $color-purple;
+	border-color: $color-purple;
+}
+.single-team .team-content {
+	border-top: 2px solid $color-purple;
+}
+.testimonials-item:hover {
+    background: $color-purple;
+}
+.client-info .client-title span {
+    color: $color-purple;
+}
+.accordion .accordion-title {
+    background: $color-purple;
+}
+.pricingTable .title {
+    background: $color-purple;
+}
+.pricingTable:hover .price-value {
+    background: $color-purple;
+}
+.pricing-table:hover .icon {
+	background: $color-purple;
+}
+.pricing-table .pricing-table-header {
+	background: $color-purple;
+}
+.pricing-table .icon {
+	color: $color-purple;
+}
+.partner-area .owl-item img {
+	border: 1px solid $color-purple;
+}
+.subscribe-area {
+    background: $color-purple;
+}
+.newsletter h4 span {
+    color: $color-purple;
+}
+.page-title {
+    background: $color-purple;
+}
+.contact-box .icon {
+	border: 1px dashed $color-purple;
+	color: $color-purple;
+}
+.contact-box:hover .icon {
+	background: $color-purple;
+}
+.contact-box .content p a:hover {
+	color: $color-purple;
+}
+.single-footer .logo a span {
+	color: $color-purple;
+}
+.single-footer ul li a:hover {
+	color: $color-purple;
+}
+.single-footer .contact-info li i {
+	color: $color-purple;
+}
+.copyright-area ul li a {
+	border: 1px solid $color-purple;
+}
+.copyright-area ul li a:hover {
+	background: $color-purple;
+    border-color: $color-purple;
+}
+.go-top:hover {
+	background: $color-purple;
+}
+.navbar-light .navbar-toggler {
+	border-color: $color-purple;
+}
+.navbar-light .navbar-toggler-icon {
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(179, 66, 143, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}

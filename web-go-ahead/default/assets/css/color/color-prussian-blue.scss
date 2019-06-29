@@ -1,0 +1,196 @@
+$color-blue: #003262;
+$color-deep-gray: #5C5C78;
+$gray-color: #edf5ff;
+a {
+    color: $color-blue;
+}
+.bg-gray {
+	background-color: $gray-color;
+}
+.section-title span {
+	color: $color-blue;
+}
+.section-title h3::before {
+	background: $color-blue;
+}
+.owl-theme .owl-nav [class*="owl-"] {
+	color: $color-blue;
+}
+.owl-theme .owl-nav [class*="owl-"]:hover {
+	background: $color-blue;
+}
+.btn-primary {
+	background-color: $color-blue;
+	border-color: $color-blue;
+}
+.btn-primary.disabled, .btn-primary:disabled {
+	background-color: $color-blue;
+	border-color: $color-blue;
+}
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show > .btn-primary.dropdown-toggle {
+	background-color: $color-deep-gray;
+	border-color: $color-deep-gray;
+}
+.btn-primary:hover {
+	background-color: $color-deep-gray;
+	border-color: $color-deep-gray;
+}
+.double-bounce1, .double-bounce2 {
+	background-color: $color-blue;
+}
+.navbar-brand span {
+	color: $color-blue;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+	color: $color-blue;
+}
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+	color: $color-blue;
+}
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+	color: $color-blue;
+}
+.creative-bg {
+	background: $color-blue;
+}
+.creative-bg-two {
+	background: $color-blue;
+}
+.main-banner-form form .form-control:focus {
+	border-color: $color-blue;
+}
+.single-features:hover {
+    background: $color-blue;
+}
+.single-features i {
+	color: $color-blue;
+}
+.about-content ul li i {
+    color: $color-blue;
+}
+.about-text ul li i {
+    color: $color-blue;
+}
+.about-text span {
+	background: hsla(209, 100%, 19%, 0.6);
+}
+.about-text .blockquote {
+	background: hsla(209, 100%, 19%, 0.2)
+}
+.single-services:hover {
+	background: $color-blue;
+}
+.single-services i {
+	background: $color-blue;
+}
+.single-services:hover i {
+	color: $color-blue;
+}
+.tabs a:hover i, .tabs .current a i {
+    background: $color-blue;
+}
+.tabs_item_content ul li i {
+	color: $color-blue;
+}
+.tabs a:hover, .tabs .current a {
+    color: $color-blue;
+}
+.funfacts-area::before {
+	background: $color-blue;
+}
+.funFact i {
+	color: $color-blue;
+}
+.fun-fact i {
+	color: $color-blue;
+}
+.single-box:hover span {
+    background: $color-blue;
+}
+.our-team .social li a {
+    color: $color-blue;
+}
+.our-team .social li a:hover {
+    background: $color-blue;
+}
+.single-team .pic::after {
+	border: 2px solid $color-blue;
+}
+.single-team .social-links li a:hover {
+	background: $color-blue;
+	border-color: $color-blue;
+}
+.single-team .team-content {
+	border-top: 2px solid $color-blue;
+}
+.testimonials-item:hover {
+    background: $color-blue;
+}
+.client-info .client-title span {
+    color: $color-blue;
+}
+.accordion .accordion-title {
+    background: $color-blue;
+}
+.pricingTable .title {
+    background: $color-blue;
+}
+.pricingTable:hover .price-value {
+    background: $color-blue;
+}
+.pricing-table:hover .icon {
+	background: $color-blue;
+}
+.pricing-table .pricing-table-header {
+	background: $color-blue;
+}
+.pricing-table .icon {
+	color: $color-blue;
+}
+.partner-area .owl-item img {
+	border: 1px solid $color-blue;
+}
+.subscribe-area {
+    background: $color-blue;
+}
+.newsletter h4 span {
+    color: $color-blue;
+}
+.page-title {
+    background: $color-blue;
+}
+.contact-box .icon {
+	border: 1px dashed $color-blue;
+	color: $color-blue;
+}
+.contact-box:hover .icon {
+	background: $color-blue;
+}
+.contact-box .content p a:hover {
+	color: $color-blue;
+}
+.single-footer .logo a span {
+	color: $color-blue;
+}
+.single-footer ul li a:hover {
+	color: $color-blue;
+}
+.single-footer .contact-info li i {
+	color: $color-blue;
+}
+.copyright-area ul li a {
+	border: 1px solid $color-blue;
+}
+.copyright-area ul li a:hover {
+	background: $color-blue;
+    border-color: $color-blue;
+}
+.go-top:hover {
+	background: $color-blue;
+}
+.navbar-light .navbar-toggler {
+	border-color: $color-blue;
+}
+.navbar-light .navbar-toggler-icon {
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 50, 98, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
