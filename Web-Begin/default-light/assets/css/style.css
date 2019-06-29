@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*
 @File: Addax Template Styles
 
@@ -45,6 +46,55 @@ This files table contents are outlined below>>>>>
 ==============================
 Default CSS
 ==============================
+=======
+/*
+@File: Addax Template Styles
+
+* This file contains the styling for the actual tepmlate, this
+is the file you need to edit to change the look of the
+tepmlate.
+
+This files table contents are outlined below>>>>>
+
+*******************************************
+*******************************************
+
+*** - Default CSS
+*** - Prealoader CSS 
+*** - Main Header CSS
+*** - Main Banner CSS
+*** - Video Banner CSS
+*** - Creative Banner CSS
+*** - Particles Banner CSS
+*** - Welcome Area CSS
+*** - About Area CSS
+*** - Who We Are Area CSS
+*** - Strategy Area CSS
+*** - CTR Area CSS
+*** - Skill Area CSS
+*** - Fun Facts Area CSS
+*** - Team Area CSS
+*** - How We Work CSS
+*** - Services Area CSS
+*** - Why We Are Different CSS
+*** - Work Area CSS
+*** - Pricing Area CSS
+*** - FAQ Area CSS
+*** - Testimonials Area CSS
+*** - Blog Area CSS
+*** - Partner Area CSS
+*** - Subscribe Area CSS
+*** - Contact Area CSS
+*** - Page Title CSS
+*** - Blog Details Area CSS
+*** - Footer Area CSS
+*** - Go Top CSS
+*/
+/*
+==============================
+Default CSS
+==============================
+>>>>>>> origin/master
 */
 @import url("https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i");
 body {
@@ -292,10 +342,17 @@ img {
   right: 40px;
 }
 
+<<<<<<< HEAD
 /*
 ==============================
 Preloader CSS
 ==============================
+=======
+/*
+==============================
+Preloader CSS
+==============================
+>>>>>>> origin/master
 */
 .preloader {
   position: fixed;
@@ -406,10 +463,17 @@ Preloader CSS
   }
 }
 
+<<<<<<< HEAD
 /*
 ==============================
 Main Header CSS
 ==============================
+=======
+/*
+==============================
+Main Header CSS
+==============================
+>>>>>>> origin/master
 */
 .navbar {
   position: fixed;
@@ -495,10 +559,17 @@ Main Header CSS
   color: #ff2c57;
 }
 
+<<<<<<< HEAD
 /*
 ==============================
 Main Banner CSS
 ==============================
+=======
+/*
+==============================
+Main Banner CSS
+==============================
+>>>>>>> origin/master
 */
 .main-banner {
   height: 750px;
@@ -584,10 +655,17 @@ Main Banner CSS
   margin-top: 0;
 }
 
+<<<<<<< HEAD
 /*
 ==============================
 Video Banner CSS
 ==============================
+=======
+/*
+==============================
+Video Banner CSS
+==============================
+>>>>>>> origin/master
 */
 .video-background {
   position: absolute;
@@ -600,10 +678,17 @@ Video Banner CSS
   z-index: -100;
 }
 
+<<<<<<< HEAD
 /*
 ==============================
 Creative Banner CSS
 ==============================
+=======
+/*
+==============================
+Creative Banner CSS
+==============================
+>>>>>>> origin/master
 */
 .creative-banner-one {
   position: absolute;
@@ -664,10 +749,17 @@ Creative Banner CSS
   background-repeat: no-repeat;
 }
 
+<<<<<<< HEAD
 /*
 ==============================
 Particles Banner CSS
 ==============================
+=======
+/*
+==============================
+Particles Banner CSS
+==============================
+>>>>>>> origin/master
 */
 #particles-js {
   width: 100%;
@@ -685,10 +777,17 @@ Particles Banner CSS
   top: 0;
 }
 
+<<<<<<< HEAD
 /*
 ==============================
 Welcome Area CSS
 ==============================
+=======
+/*
+==============================
+Welcome Area CSS
+==============================
+>>>>>>> origin/master
 */
 .single-box {
   text-align: center;
@@ -744,10 +843,17 @@ Welcome Area CSS
   bottom: 0;
 }
 
+<<<<<<< HEAD
 /*
 ==============================
 About Area CSS
 ==============================
+=======
+/*
+==============================
+About Area CSS
+==============================
+>>>>>>> origin/master
 */
 .about-area {
   background-image: url(../../../img-d-li/patt.png);
@@ -871,10 +977,17 @@ About Area CSS
   margin-right: 45px;
 }
 
+<<<<<<< HEAD
 /*
 ==============================
 Who We Are Area CSS
 ==============================
+=======
+/*
+==============================
+Who We Are Area CSS
+==============================
+>>>>>>> origin/master
 */
 .who-we-are {
   padding-bottom: 50px;
@@ -942,10 +1055,17 @@ Who We Are Area CSS
   color: rgba(255, 255, 255, 0.2);
 }
 
+<<<<<<< HEAD
 /*
 ==============================
 Strategy Area CSS
 ==============================
+=======
+/*
+==============================
+Strategy Area CSS
+==============================
+>>>>>>> origin/master
 */
 .strategy-area {
   position: relative;
@@ -999,10 +1119,17 @@ Strategy Area CSS
   margin-right: 5px;
 }
 
+<<<<<<< HEAD
 /*
 ==============================
 CTR Area CSS
 ==============================
+=======
+/*
+==============================
+CTR Area CSS
+==============================
+>>>>>>> origin/master
 */
 .ctr-area {
   text-align: center;
@@ -1062,10 +1189,17 @@ CTR Area CSS
   border-color: #ffffff;
 }
 
+<<<<<<< HEAD
 /*
 ==============================
 Skill Area CSS
 ==============================
+=======
+/*
+==============================
+Skill Area CSS
+==============================
+>>>>>>> origin/master
 */
 .about-skill .section-title {
   padding-left: 0;
@@ -1198,10 +1332,17 @@ Skill Area CSS
   }
 }
 
+<<<<<<< HEAD
 /*
 ==============================
 Fun Facts Area CSS
 ==============================
+=======
+/*
+==============================
+Fun Facts Area CSS
+==============================
+>>>>>>> origin/master
 */
 .funFacts-area {
   background-image: url(../../../img-d-li/funfact-bg.jpg);
@@ -1251,10 +1392,17 @@ Fun Facts Area CSS
   font-size: 18px;
 }
 
+<<<<<<< HEAD
 /*
 ==============================
 Team Area CSS
 ==============================
+=======
+/*
+==============================
+Team Area CSS
+==============================
+>>>>>>> origin/master
 */
 .our-team {
   text-align: center;
@@ -1354,10 +1502,17 @@ Team Area CSS
           transform: translateY(0);
 }
 
+<<<<<<< HEAD
 /*
 ==============================
 How We Work CSS
 ==============================
+=======
+/*
+==============================
+How We Work CSS
+==============================
+>>>>>>> origin/master
 */
 .how-work {
   background-image: url(../../../img-d-li/dott.jpg);
@@ -1393,10 +1548,17 @@ How We Work CSS
   font-size: 22px;
 }
 
+<<<<<<< HEAD
 /*
 ==============================
 Services Area CSS
 ==============================
+=======
+/*
+==============================
+Services Area CSS
+==============================
+>>>>>>> origin/master
 */
 .services-area {
   padding-bottom: 50px;
@@ -1494,10 +1656,17 @@ Services Area CSS
   margin-bottom: 18px;
 }
 
+<<<<<<< HEAD
 /*
 ==============================
 Why We Are Different CSS
 ==============================
+=======
+/*
+==============================
+Why We Are Different CSS
+==============================
+>>>>>>> origin/master
 */
 .tabset input[type="radio"] {
   display: none;
@@ -1587,10 +1756,17 @@ Why We Are Different CSS
   margin-right: 5px;
 }
 
+<<<<<<< HEAD
 /*
 ==============================
 Work Area CSS
 ==============================
+=======
+/*
+==============================
+Work Area CSS
+==============================
+>>>>>>> origin/master
 */
 .shorting-menu {
   display: inline-block;
@@ -1715,10 +1891,17 @@ Work Area CSS
   visibility: visible;
 }
 
+<<<<<<< HEAD
 /*
 ==============================
 Pricing Area CSS
 ==============================
+=======
+/*
+==============================
+Pricing Area CSS
+==============================
+>>>>>>> origin/master
 */
 .pricingTable {
   padding: 30px 0;
@@ -1809,10 +1992,17 @@ Pricing Area CSS
   margin-right: 4px;
 }
 
+<<<<<<< HEAD
 /*
 ==============================
 FAQ Area CSS
 ==============================
+=======
+/*
+==============================
+FAQ Area CSS
+==============================
+>>>>>>> origin/master
 */
 .faq-area .image {
   background-image: url(../../../img-d-li/faq-img.jpg);
@@ -1893,10 +2083,17 @@ FAQ Area CSS
   color: #666666;
 }
 
+<<<<<<< HEAD
 /*
 ==============================
 Testimonials Area CSS
 ==============================
+=======
+/*
+==============================
+Testimonials Area CSS
+==============================
+>>>>>>> origin/master
 */
 .testimonials-area {
   padding-bottom: 50px;
@@ -1981,10 +2178,17 @@ Testimonials Area CSS
   color: rgba(255, 255, 255, 0.2);
 }
 
+<<<<<<< HEAD
 /*
 ==============================
 Blog Area CSS
 ==============================
+=======
+/*
+==============================
+Blog Area CSS
+==============================
+>>>>>>> origin/master
 */
 .single-blog-item {
   position: relative;
@@ -2053,10 +2257,17 @@ Blog Area CSS
   color: #ffffff;
 }
 
+<<<<<<< HEAD
 /*
 ==============================
 Partner Area CSS
 ==============================
+=======
+/*
+==============================
+Partner Area CSS
+==============================
+>>>>>>> origin/master
 */
 .partner-area {
   text-align: center;
@@ -2066,10 +2277,17 @@ Partner Area CSS
   width: 140px;
 }
 
+<<<<<<< HEAD
 /*
 ==============================
 Subscribe Area CSS
 ==============================
+=======
+/*
+==============================
+Subscribe Area CSS
+==============================
+>>>>>>> origin/master
 */
 .subscribe-area {
   background-image: url(../../../img-d-li/pattern.png);
@@ -2128,10 +2346,17 @@ Subscribe Area CSS
   margin-top: 20px;
 }
 
+<<<<<<< HEAD
 /*
 ==============================
 Contact Area CSS
 ==============================
+=======
+/*
+==============================
+Contact Area CSS
+==============================
+>>>>>>> origin/master
 */
 #map {
   width: 100%;
@@ -2237,10 +2462,17 @@ Contact Area CSS
   padding: 15px;
 }
 
+<<<<<<< HEAD
 /*
 ==============================
 Page Title CSS
 ==============================
+=======
+/*
+==============================
+Page Title CSS
+==============================
+>>>>>>> origin/master
 */
 .page-title {
   height: 550px;
@@ -2292,10 +2524,17 @@ Page Title CSS
   color: #ff2c57;
 }
 
+<<<<<<< HEAD
 /*
 ==============================
 Blog Details Area CSS
 ==============================
+=======
+/*
+==============================
+Blog Details Area CSS
+==============================
+>>>>>>> origin/master
 */
 .blog-details-area {
   background-image: url(../../../img-d-li/pattern.png);
@@ -2511,10 +2750,17 @@ Blog Details Area CSS
   margin-top: 0px;
 }
 
+<<<<<<< HEAD
 /*
 ==============================
 Footer Area CSS
 ==============================
+=======
+/*
+==============================
+Footer Area CSS
+==============================
+>>>>>>> origin/master
 */
 .footer-area {
   text-align: center;
@@ -2568,10 +2814,17 @@ Footer Area CSS
   color: #ffffff;
 }
 
+<<<<<<< HEAD
 /*
 ==============================
 Go Top CSS
 ==============================
+=======
+/*
+==============================
+Go Top CSS
+==============================
+>>>>>>> origin/master
 */
 .go-top {
   position: fixed;

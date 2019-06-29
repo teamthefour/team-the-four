@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 $royal-blue: #506CEA;
 $cornflower-blue: #6993ff;
 $gray-color: #edf5ff;
@@ -194,4 +195,202 @@ a {
 }
 .navbar-light .navbar-toggler-icon {
 	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(88, 130, 253, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+=======
+$royal-blue: #506CEA;
+$cornflower-blue: #6993ff;
+$gray-color: #edf5ff;
+
+a {
+    color: $royal-blue;
+}
+.bg-gray {
+	background-color: $gray-color;
+}
+.section-title span {
+	color: $royal-blue;
+}
+.section-title h3::before {
+	background: $royal-blue;
+}
+.owl-theme .owl-nav [class*="owl-"] {
+	color: $royal-blue;
+}
+.owl-theme .owl-nav [class*="owl-"]:hover {
+	background: $royal-blue;
+}
+.btn-primary {
+	background-color: $royal-blue;
+	border-color: $royal-blue;
+}
+.btn-primary.disabled, .btn-primary:disabled {
+	background-color: $royal-blue;
+	border-color: $royal-blue;
+}
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show > .btn-primary.dropdown-toggle {
+	background-color: $cornflower-blue;
+	border-color: $cornflower-blue;
+}
+.btn-primary:hover {
+	background-color: $cornflower-blue;
+	border-color: $cornflower-blue;
+}
+.double-bounce1, .double-bounce2 {
+	background-color: $royal-blue;
+}
+.navbar-brand span {
+	color: $royal-blue;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+	color: $royal-blue;
+}
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+	color: $royal-blue;
+}
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+	color: $royal-blue;
+}
+.creative-bg {
+	background: $royal-blue;
+}
+.creative-bg-two {
+	background: $royal-blue;
+}
+.main-banner-form form .form-control:focus {
+	border-color: $royal-blue;
+}
+.single-features:hover {
+    background: $royal-blue;
+}
+.single-features i {
+	color: $royal-blue;
+}
+.about-content ul li i {
+    color: $royal-blue;
+}
+.about-text ul li i {
+    color: $royal-blue;
+}
+.about-text span {
+    background: hsla(225, 98%, 67%, 0.8);
+}
+.about-text .blockquote {
+    background: hsla(225, 98%, 67%, 0.4);
+}
+.single-services:hover {
+	background: $royal-blue;
+}
+.single-services i {
+	background: $royal-blue;
+}
+.single-services:hover i {
+	color: $royal-blue;
+}
+.tabs a:hover i, .tabs .current a i {
+    background: $royal-blue;
+}
+.tabs_item_content ul li i {
+	color: $royal-blue;
+}
+.tabs a:hover, .tabs .current a {
+    color: $royal-blue;
+}
+.funfacts-area::before {
+	background: $royal-blue;
+}
+.funFact i {
+	color: $royal-blue;
+}
+.fun-fact i {
+	color: $royal-blue;
+}
+.single-box:hover span {
+    background: $royal-blue;
+}
+.our-team .social li a {
+    color: $royal-blue;
+}
+.our-team .social li a:hover {
+    background: $royal-blue;
+}
+.single-team .pic::after {
+	border: 2px solid $royal-blue;
+}
+.single-team .social-links li a:hover {
+	background: $royal-blue;
+	border-color: $royal-blue;
+}
+.single-team .team-content {
+	border-top: 2px solid $royal-blue;
+}
+.testimonials-item:hover {
+    background: $royal-blue;
+}
+.client-info .client-title span {
+    color: $royal-blue;
+}
+.accordion .accordion-title {
+    background: $royal-blue;
+}
+.pricingTable .title {
+    background: $royal-blue;
+}
+.pricingTable:hover .price-value {
+    background: $royal-blue;
+}
+.pricing-table:hover .icon {
+	background: $royal-blue;
+}
+.pricing-table .pricing-table-header {
+	background: $royal-blue;
+}
+.pricing-table .icon {
+	color: $royal-blue;
+}
+.partner-area .owl-item img {
+	border: 1px solid $royal-blue;
+}
+.subscribe-area {
+    background: $royal-blue;
+}
+.newsletter h4 span {
+    color: $royal-blue;
+}
+.page-title {
+    background: $royal-blue;
+}
+.contact-box .icon {
+	border: 1px dashed $royal-blue;
+	color: $royal-blue;
+}
+.contact-box:hover .icon {
+	background: $royal-blue;
+}
+.contact-box .content p a:hover {
+	color: $royal-blue;
+}
+.single-footer .logo a span {
+	color: $royal-blue;
+}
+.single-footer ul li a:hover {
+	color: $royal-blue;
+}
+.single-footer .contact-info li i {
+	color: $royal-blue;
+}
+.copyright-area ul li a {
+	border: 1px solid $royal-blue;
+}
+.copyright-area ul li a:hover {
+	background: $royal-blue;
+    border-color: $royal-blue;
+}
+.go-top:hover {
+	background: $royal-blue;
+}
+.navbar-light .navbar-toggler {
+	border-color: $royal-blue;
+}
+.navbar-light .navbar-toggler-icon {
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(88, 130, 253, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+>>>>>>> origin/master
 }

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
     direction: rtl;
 }
@@ -395,4 +396,403 @@ footer.footer-area ul {
  
     
 }
+=======
+body {
+    direction: rtl;
+}
+.ml-auto, .mx-auto {
+    margin-right: auto!important;
+    margin-left: 0 !important;
+}
+.header-sticky.is-sticky {
+    background: #000000 !important;
+}
+.navbar.navbar-light .navbar-brand {
+    color: #ffffff !important;
+}
+.navbar-light .navbar-nav .nav-item .nav-link.active, .navbar-light .navbar-nav .nav-item .nav-link.show, .navbar-light .navbar-nav .nav-item .nav-link:hover, .navbar-light .navbar-nav .nav-item .nav-link:focus {
+    color: #ff2c57 !important;
+}
+.navbar.navbar-light .navbar-nav .nav-link {
+    color: #ffffff !important;
+}
+.navbar-light.header-sticky.is-sticky .navbar-nav .nav-link {
+    color: #ffffff;
+}
+.navbar-light.header-sticky.is-sticky .navbar-nav .nav-link.active {
+    color: #ff2c57 !important;
+}
+.navbar-light.header-sticky.is-sticky .navbar-brand {
+    color: #ffffff;
+}
+.navbar-brand {
+    margin-right: 0;
+}
+.main-banner-text .view-work {
+    margin-right: 10px !important;
+    margin-left: 0 !important;
+}
+.ctr-area .view-work {
+    margin-right: 10px !important;
+    margin-left: 0 !important;
+}
+.tabset {
+    text-align: right;
+}
+.section-title {
+    padding-right: 30px;
+    text-align: right;
+}
+.section-title::before, .section-title::after {
+    right: 10px;
+}
+.section-title::after {
+    right: 0;
+}
+.single-box:hover a {
+    left: 0;
+    right: auto;
+}
+.single-box a {
+    border-radius: 0 50% 0 0;
+    left: 0;
+    right: auto;
+}
+.about-addax .section-title {
+    padding-right: 0;
+    text-align: right;
+}
+.about-addax {
+    text-align: right;
+}
+.about-addax .pull-left {
+    margin-left: 45px;
+    margin-right: 0;
+}
+.about-addax ul {    
+    padding-right: 0;
+}
+.about-addax ul li i {
+    margin-left: 5px;
+    margin-right: 0;
+}
+.about-strategy ul li i {
+    margin-left: 5px;
+    margin-right: 0;
+}
+.pricingTable .pricing-content li i {
+    margin-left: 4px;
+    margin-right: 0;
+}
+.tab-panel .why-we-different-text ul li i {
+    margin-left: 5px;
+    margin-right: 0;
+}
+.about-strategy .section-title {
+    padding-right: 0;
+}
+.about-strategy {
+    padding-right: 25px;
+    text-align: right;
+}
+.about-strategy ul {
+    padding-right: 0;
+}
+.single-who-we-are {
+    text-align: right;
+}
+.single-who-we-are span {
+    left: 10px;
+    right: auto;
+}
+.ctr-area .section-title {
+    padding-left: 0;
+    text-align: center;
+    padding-right: 0;
+}
+.about-skill .section-title {
+    padding-right: 0;
+}
+.about-skill .progress-title {
+    text-align: right;
+}
+.about-skill .progress .progress-value {
+    left: 0;
+    right: auto;
+}
+.funFact {
+    position: relative;
+    padding-right: 65px;
+    padding-left: 0;
+    text-align: right;
+}
+.funFact i {
+    right: 0;
+}
+.funFact .fa.fa-users {
+    right: -10px;
+}
+.our-team .social ul {
+    left: 40px;
+}
+.single-how-work {
+    text-align: right;
+}
+.why-we-different-text {
+    text-align: right;
+}
+.tab-panel .why-we-different-text ul {
+    padding-right: 0;
+    padding-left: 0;
+}
+.single-work .popup-btn {
+    left: 40px;
+    right: auto;
+}
+.work-area {
+    text-align: right;
+}
+.pricingTable .pricing-content {
+    padding-right: 0;
+}
+.faq-area .image {
+    left: 0;
+}
+.card .card-header a h5 {
+    text-align: right;
+}
+.card .card-body {
+    text-align: right;
+}
+.card .card-header a i {
+    float: left;
+}
+.single-feedback {
+    text-align: right;
+}
+.single-feedback .client-info {
+    position: relative;
+    margin-bottom: 35px;
+    padding-right: 100px !important;
+    padding-left: 0 !important;
+    padding-top: 15px;
+}
+.client-pic {
+    max-width: 80px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    left: auto;
+}
+.client-pic img {
+    border-radius: 50%;
+}
+.single-feedback span {
+    left: 20px;
+    right: auto;
+}
+.single-blog-item {
+    text-align: right;
+}
+.single-blog-item .link-btn {
+    left: 0;
+    right: auto;
+    border-radius: 0 50% 0 0;
+}
+.newsletter form .btn {
+    left: 7px;
+    right: auto;
+}
+.contact-form {
+    text-align: right;
+}
+.contact-info {
+    text-align: right;
+}
+.contact-info ul {
+    padding-right: 0;
+    padding-left: 0;
+}
+.contact-info ul li {
+    padding-right: 60px;
+}
+.contact-info ul li i {
+    right: 0;
+    left: auto;
+}
+.blog-details {
+    text-align: right;
+}
+ul.category {
+    padding-left: 0;
+    padding-right: 0;
+}
+.blog-details .article-text .blockquote {
+    border-right: 4px solid #ff2c57;
+    border-left: none;
+}
+.blog-details .article-text .article-author .author-img {
+    float: right;
+    width: 25%;
+}
+.blog-details .article-text .article-author .author-title {
+    padding-right: 25px;
+    padding-left: 0;
+}
+.post-comments {
+    text-align: right;
+}
+.post-comments .single-comment .comment-content a {
+    left: 25px;
+    right: auto;
+}
+.post-comments .single-comment .comment-img {
+    float: right;
+    width: 12%;
+}
+.post-comments .single-comment .comment-content {
+    padding-right: 25px;
+    padding-left: 0;
+}
+.leave-a-reply {
+    text-align: right;
+}
+.offset-lg-2 {
+    margin-right: 16.666667%;
+}
+.blog-details .article-img .date {
+    right: 15px;
+    left: auto;
+}
+.contact-form {
+    padding: 50px 30px;
+}
+footer.footer-area ul {
+    padding-right: 0;
+}
+.go-top {
+    left: 20px;
+    right: auto;
+}
+
+/* RTL responsive css*/
+@media only screen and (max-width: 767px) {
+    .section-title {
+        padding-left: 0;
+    }
+    .about-strategy {
+        padding-right: 0;
+    }
+    .about-skill .section-title {
+        padding-left: 0;
+        padding-right: 30px;
+    }
+    .funFact {
+        padding-left: 0;
+        padding-right: 50px;
+    }
+    .single-feedback .client-info .client-pic {
+        right: 0;
+        left: auto;
+    }
+    .single-feedback .client-info {
+        padding-left: 0px !important;
+        padding-right: 95px !important;
+    }
+    .contact-info ul li {
+        padding-left: 0;
+    }
+    .single-feedback .client-info {
+        padding: 0;
+    }
+    .single-feedback .client-info .client-title h4 {
+        font-size: 16px !important;
+    }
+    .single-feedback p {
+        margin-top: 32px !important;
+        font-size: 13px !important;
+    }
+    .single-feedback .client-info .client-title h5 {
+        font-size: 12px !important;
+        margin-top: 10px;
+    }
+    .single-feedback .client-info .client-pic img {
+        border-radius: 50%;
+        max-width: 80px;
+    }
+    .creative-banner-three::before {
+        display: none;
+    }
+    .creative-banner-two::before {
+        display: none;
+    }
+    .creative-banner-two::after {
+        display: none;
+    }
+    .blog-details .article-text .author-share .article-author {
+        padding-right: 100px !important;
+        padding-left: 0 !important;
+    }
+    .blog-details .article-text .blockquote {
+        padding: 15px;
+        font-size: 15px;
+        border-left: none !important;
+    }
+    .post-comments .single-comment {
+        padding: 20px 80px 20px 15px !important;
+    }
+    .post-comments .single-comment .comment-img {
+        right: 10px !important;
+        max-width: 80px;
+    }
+    .post-comments .single-comment .comment-content a {
+        right: 15px !important;
+    }
+    .blog-details .article-text .author-share .social-share {
+        padding-right: 0 !important;
+    }    
+    .post-controls-buttons div a {
+        padding: 5px 10px;
+    }
+    .post-comments .single-comment .comment-content p {
+        font-size: 12px !important;
+    }
+    .offset-lg-2 {
+        margin-right: 0 !important;
+    }
+    ul {
+        padding-right: 0 !important;
+    }
+    .navbar.navbar-light.header-sticky.is-sticky .navbar-brand {
+        color: #ffffff !important;
+        padding-top: 0;
+    }
+    .navbar.navbar-light .navbar-nav .nav-link {
+        color: #ffffff !important;
+    }  
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .creative-banner-three::before {
+        display: none;
+    }
+    .creative-banner-two::before {
+        display: none;
+    }
+    .creative-banner-two::after {
+        display: none;
+    }
+    .offset-lg-2 {
+        margin-right: 0 !important;
+    }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .blog-details .article-text .author-share .social-share {
+        padding-right: 0 !important;
+    }
+}
+@media only screen and (min-width: 1400px) {
+ 
+    
+}
+>>>>>>> origin/master
 /*# sourceMappingURL=responsive.css.map */

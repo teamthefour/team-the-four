@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*
 @File: Axolot Template Styles
 
@@ -34,6 +35,44 @@ This files table contents are outlined below>>>>>
 */
 /* ==============
     Start Default CSS 
+=======
+/*
+@File: Axolot Template Styles
+
+* This file contains the styling for the actual tepmlate, this
+is the file you need to edit to change the look of the
+tepmlate.
+
+This files table contents are outlined below>>>>>
+
+*******************************************
+*******************************************
+
+*** - Default CSS
+*** - Prealoader CSS 
+*** - Navbar CSS
+*** - Main Banner CSS
+*** - Features CSS
+*** - About CSS
+*** - Services CSS
+*** - Vision CSS
+*** - Fun Facts CSS
+*** - Join Now CSS
+*** - How It Works CSS
+*** - Team CSS
+*** - Testimonials CSS
+*** - FAQ CSS
+*** - Pricing CSS
+*** - Partner CSS
+*** - Subscribe CSS
+*** - Page Title CSS
+*** - Contact CSS
+*** - Footer Area CSS
+*** - Go Top CSS
+*/
+/* ==============
+    Start Default CSS 
+>>>>>>> origin/master
 ==================================== */
 @import url("https://fonts.googleapis.com/css?family=Fira+Sans:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i");
 body {
@@ -258,11 +297,19 @@ p {
   border-color: #f06334;
 }
 
+<<<<<<< HEAD
 /* ==============
     End Default CSS 
 ==================================== */
 /* ==============
     Start Preloader CSS 
+=======
+/* ==============
+    End Default CSS 
+==================================== */
+/* ==============
+    Start Preloader CSS 
+>>>>>>> origin/master
 ==================================== */
 .preloader {
   position: fixed;
@@ -327,11 +374,19 @@ p {
   }
 }
 
+<<<<<<< HEAD
 /* ==============
     End Preloader CSS 
 ==================================== */
 /* ==============
     Start Navbar CSS 
+=======
+/* ==============
+    End Preloader CSS 
+==================================== */
+/* ==============
+    Start Navbar CSS 
+>>>>>>> origin/master
 ==================================== */
 .navbar.is-sticky {
   background: #ffffff;
@@ -386,11 +441,19 @@ p {
   padding-left: 10px;
 }
 
+<<<<<<< HEAD
 /* ==============
     End Navbar CSS 
 ==================================== */
 /* ==============
     Start Main Banner CSS 
+=======
+/* ==============
+    End Navbar CSS 
+==================================== */
+/* ==============
+    Start Main Banner CSS 
+>>>>>>> origin/master
 ==================================== */
 .main-banner {
   height: 780px;
@@ -583,11 +646,19 @@ p {
   z-index: -1;
 }
 
+<<<<<<< HEAD
 /* ==============
     End Main Banner CSS 
 ==================================== */
 /* ==============
     Start Features CSS 
+=======
+/* ==============
+    End Main Banner CSS 
+==================================== */
+/* ==============
+    Start Features CSS 
+>>>>>>> origin/master
 ==================================== */
 .features-area {
   padding-bottom: 70px;
@@ -631,11 +702,19 @@ p {
   color: #ffffff;
 }
 
+<<<<<<< HEAD
 /* ==============
     End Features CSS 
 ==================================== */
 /* ==============
     Start About CSS 
+=======
+/* ==============
+    End Features CSS 
+==================================== */
+/* ==============
+    Start About CSS 
+>>>>>>> origin/master
 ==================================== */
 .about-area {
   position: relative;
@@ -728,11 +807,19 @@ p {
   color: #737373;
 }
 
+<<<<<<< HEAD
 /* ==============
     End About CSS 
 ==================================== */
 /* ==============
     Start Services CSS 
+=======
+/* ==============
+    End About CSS 
+==================================== */
+/* ==============
+    Start Services CSS 
+>>>>>>> origin/master
 ==================================== */
 .services-area {
   padding-bottom: 70px;
@@ -784,11 +871,19 @@ p {
   color: #ffffff;
 }
 
+<<<<<<< HEAD
 /* ==============
     End Services CSS 
 ==================================== */
 /* ==============
     Start Vision CSS 
+=======
+/* ==============
+    End Services CSS 
+==================================== */
+/* ==============
+    Start Vision CSS 
+>>>>>>> origin/master
 ==================================== */
 .vision-area {
   background-image: url(../../../img-all/pattern-4.png);
@@ -890,11 +985,19 @@ p {
   margin-top: 0;
 }
 
+<<<<<<< HEAD
 /* ==============
     End Vision CSS 
 ==================================== */
 /* ==============
     Start Fun Facts CSS 
+=======
+/* ==============
+    End Vision CSS 
+==================================== */
+/* ==============
+    Start Fun Facts CSS 
+>>>>>>> origin/master
 ==================================== */
 .funfacts-area {
   background-image: url(../../../img-all/parallax.jpg);
@@ -1035,11 +1138,19 @@ p {
   background: transparent;
 }
 
+<<<<<<< HEAD
 /* ==============
     End Fun Facts CSS 
 ==================================== */
 /* ==============
     Start Join Now CSS 
+=======
+/* ==============
+    End Fun Facts CSS 
+==================================== */
+/* ==============
+    Start Join Now CSS 
+>>>>>>> origin/master
 ==================================== */
 .join-content {
   margin-top: 45px;
@@ -1055,11 +1166,19 @@ p {
   margin-bottom: 25px;
 }
 
+<<<<<<< HEAD
 /* ==============
     End Join Now CSS 
 ==================================== */
 /* ==============
     Start How It Works CSS 
+=======
+/* ==============
+    End Join Now CSS 
+==================================== */
+/* ==============
+    Start How It Works CSS 
+>>>>>>> origin/master
 ==================================== */
 .single-box {
   -webkit-box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.06);
@@ -1106,11 +1225,19 @@ p {
   color: #ffffff;
 }
 
+<<<<<<< HEAD
 /* ==============
     End How It Works CSS 
 ==================================== */
 /* ==============
     Start Team CSS 
+=======
+/* ==============
+    End How It Works CSS 
+==================================== */
+/* ==============
+    Start Team CSS 
+>>>>>>> origin/master
 ==================================== */
 .our-team {
   text-align: center;
@@ -1332,11 +1459,19 @@ p {
   transform: scale(1);
 }
 
+<<<<<<< HEAD
 /* ==============
     End Team CSS 
 ==================================== */
 /* ==============
     Start Testimonials CSS 
+=======
+/* ==============
+    End Team CSS 
+==================================== */
+/* ==============
+    Start Testimonials CSS 
+>>>>>>> origin/master
 ==================================== */
 .testimonials-area {
   padding-bottom: 70px;
@@ -1411,11 +1546,19 @@ p {
   transition: .4s;
 }
 
+<<<<<<< HEAD
 /* ==============
     End Testimonials CSS 
 ==================================== */
 /* ==============
     Start FAQ CSS 
+=======
+/* ==============
+    End Testimonials CSS 
+==================================== */
+/* ==============
+    Start FAQ CSS 
+>>>>>>> origin/master
 ==================================== */
 .accordion {
   list-style-type: none;
@@ -1460,11 +1603,19 @@ p {
   display: block;
 }
 
+<<<<<<< HEAD
 /* ==============
     End FAQ CSS 
 ==================================== */
 /* ==============
     Start Pricing CSS 
+=======
+/* ==============
+    End FAQ CSS 
+==================================== */
+/* ==============
+    Start Pricing CSS 
+>>>>>>> origin/master
 ==================================== */
 .pricingTable {
   padding-bottom: 30px;
@@ -1639,11 +1790,19 @@ p {
   color: #ffffff;
 }
 
+<<<<<<< HEAD
 /* ==============
     End Pricing CSS 
 ==================================== */
 /* ==============
     Start Partner CSS 
+=======
+/* ==============
+    End Pricing CSS 
+==================================== */
+/* ==============
+    Start Partner CSS 
+>>>>>>> origin/master
 ==================================== */
 .partner-area .item {
   text-align: center;
@@ -1653,11 +1812,19 @@ p {
   display: inline-block;
 }
 
+<<<<<<< HEAD
 /* ==============
     End Partner CSS 
 ==================================== */
 /* ==============
     End Subscribe CSS 
+=======
+/* ==============
+    End Partner CSS 
+==================================== */
+/* ==============
+    End Subscribe CSS 
+>>>>>>> origin/master
 ==================================== */
 .subscribe-area {
   text-align: center;
@@ -1746,11 +1913,19 @@ p {
   height: 135px;
 }
 
+<<<<<<< HEAD
 /* ==============
     End Subscribe CSS 
 ==================================== */
 /* ==============
     Start Page Title CSS 
+=======
+/* ==============
+    End Subscribe CSS 
+==================================== */
+/* ==============
+    Start Page Title CSS 
+>>>>>>> origin/master
 ==================================== */
 .page-title {
   position: relative;
@@ -1789,11 +1964,19 @@ p {
   text-decoration: none;
 }
 
+<<<<<<< HEAD
 /* ==============
     End Page Title CSS 
 ==================================== */
 /* ==============
     Start Contact CSS 
+=======
+/* ==============
+    End Page Title CSS 
+==================================== */
+/* ==============
+    Start Contact CSS 
+>>>>>>> origin/master
 ==================================== */
 .contact-box {
   background: #ffffff;
@@ -1884,11 +2067,19 @@ p {
   font-size: 18px;
 }
 
+<<<<<<< HEAD
 /* ==============
     End Contact CSS 
 ==================================== */
 /* ==============
     Start Footer CSS 
+=======
+/* ==============
+    End Contact CSS 
+==================================== */
+/* ==============
+    Start Footer CSS 
+>>>>>>> origin/master
 ==================================== */
 .footer-area {
   padding-bottom: 0;
@@ -1999,11 +2190,19 @@ p {
   color: #ffffff;
 }
 
+<<<<<<< HEAD
 /* ==============
     End Footer CSS 
 ==================================== */
 /* ==============
     Start Go Top CSS 
+=======
+/* ==============
+    End Footer CSS 
+==================================== */
+/* ==============
+    Start Go Top CSS 
+>>>>>>> origin/master
 ==================================== */
 .go-top {
   position: fixed;
@@ -2028,7 +2227,12 @@ p {
   color: #ffffff;
 }
 
+<<<<<<< HEAD
 /* ==============
     End Go Top CSS 
+=======
+/* ==============
+    End Go Top CSS 
+>>>>>>> origin/master
 ==================================== */
 /*# sourceMappingURL=style.css.map */
